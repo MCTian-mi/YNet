@@ -21,11 +21,12 @@ import net.minecraftforge.fml.common.event.*;
 import java.util.Optional;
 import java.util.function.Function;
 
+
 @Mod(modid = XNet.MODID, name = XNet.MODNAME,
         dependencies =
                         "required-after:mcjtylib_ng@[" + XNet.MIN_MCJTYLIB_VER + ",);after:rftools@[" + XNet.MIN_RFTOOLS_VER + ",)",
         acceptedMinecraftVersions = "[1.12,1.13)",
-        version = Tags.MOD_VERSION)
+        version = Tags.VERSION)
 public class XNet implements ModBase {
 
     public static final String MODID = "xnet";
